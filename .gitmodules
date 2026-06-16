@@ -1,0 +1,21 @@
+[submodule "reference/verl"]
+	path = reference/verl
+	url = https://github.com/verl-project/verl.git
+[submodule "reference/ComplementaryRL"]
+	path = reference/ComplementaryRL
+	url = https://github.com/pUmpKin-Co/ComplementaryRL.git
+[submodule "reference/OpenEnv-main"]
+	path = reference/OpenEnv-main
+	url = https://github.com/meta-pytorch/OpenEnv.git
+[submodule "reference/MemEvolve"]
+	path = reference/MemEvolve
+	url = https://github.com/bingreeky/MemEvolve.git
+[submodule "reference/LifelongAgentBench"]
+	path = reference/LifelongAgentBench
+	url = https://github.com/caixd-220529/LifelongAgentBench.git
+[submodule "reference/AMA-Bench"]
+	path = reference/AMA-Bench
+	url = https://github.com/AMA-Bench/AMA-Bench.git
+[submodule "reference/EnvScaler"]
+	path = reference/EnvScaler
+	url = https://github.com/RUC-NLPIR/EnvScaler.git

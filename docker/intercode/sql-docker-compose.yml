@@ -1,0 +1,11 @@
+services:
+  env-sql:
+    image: docker-env-sql:latest
+    command: --lower_case_table_names=1
+    build:
+
+      context: ../..
+      dockerfile: docker/intercode/sql.Dockerfile
+    container_name: docker-env-sql_ic_ctr
+    ports:
+      - "3307:3306"

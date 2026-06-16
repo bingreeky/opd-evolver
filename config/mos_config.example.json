@@ -1,0 +1,45 @@
+{
+  "chat_model": {
+    "backend": "openai",
+    "config": {
+      "model_name_or_path": "your_model_name",
+      "api_key": "EMPTY",
+      "api_base": "http://127.0.0.1:8000/v1"
+    }
+  },
+  "mem_reader": {
+    "backend": "simple_struct",
+    "config": {
+      "llm": {
+        "backend": "openai",
+        "config": {
+          "model_name_or_path": "your_model_name",
+          "api_key": "EMPTY",
+          "api_base": "http://127.0.0.1:8000/v1"
+        }
+      },
+      "embedder": {
+        "backend": "universal_api",
+        "config": {
+          "provider": "openai",
+          "model_name_or_path": "your_embedding_model_name",
+          "api_key": "EMPTY",
+          "base_url": "http://127.0.0.1:8000/v1"
+        }
+      },
+      "chunker": {
+        "backend": "sentence",
+        "config": {
+          "chunk_size": 500
+        }
+      }
+    }
+  },
+  "user_manager": {
+    "backend": "sqlite",
+    "config": {
+      "db_path": "workspace/memory/example/mos_users.db"
+    }
+  },
+  "top_k": 5
+}

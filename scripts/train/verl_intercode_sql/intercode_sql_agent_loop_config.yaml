@@ -1,0 +1,4 @@
+- name: intercode_sql_agent
+  _target_: intercode_sql_agent_loop.InterCodeSqlAgentLoop
+  per_turn_max_tokens: 512
+  invalid_action_reward: -1.0

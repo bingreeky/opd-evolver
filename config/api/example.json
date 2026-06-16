@@ -1,0 +1,17 @@
+{
+  "your_dataset_name_1": {
+    "your_model_name": {
+      "your_task_name": {
+        "url": "http://127.0.0.1:8000/v1",
+        "vllm_max_model_len": 131072,
+        "llm_max_completion_tokens": 4096
+      }
+    }
+  },
+  "your_dataset_name_2": {
+    "your_model_name": {
+      "your_task_name_1": "http://127.0.0.1:8000/v1",
+      "your_task_name_2": "http://127.0.0.1:8001/v1"
+    }
+  }
+}

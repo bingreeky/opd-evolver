@@ -1,0 +1,9 @@
+served_model_name: qwen/qwen3.5-9b
+model_dir: $MODEL_DIR
+host: 127.0.0.1
+base_port: 8000
+tensor_parallel_size: 1
+gpu_memory_utilization: 0.8
+max_model_len: 131072
+gpus:
+  - "0"

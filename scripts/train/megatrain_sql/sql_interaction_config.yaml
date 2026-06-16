@@ -1,0 +1,14 @@
+interaction:
+  - name: "sql_intercode"
+    class_name: "scripts.train.megatrain_sql.sql_intercode_interaction.SqlIntercodeInteraction"
+    config:
+      env_type: "sql"
+      image_name: "docker-env-sql"
+      max_steps: 30
+      sql_service_mode: "docker"
+      sql_host: "127.0.0.1"
+      sql_port: 3307
+      sql_user: "admin"
+      sql_password: "admin"
+      mysql_host_port: 3307
+      mysql_container_name: "docker-env-sql_ic_ctr"

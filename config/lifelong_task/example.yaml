@@ -1,0 +1,41 @@
+task_types:
+  - db
+  - os
+split: train
+data_dir: data/lifelong_agent_bench/processed
+max_tasks: null
+task: null
+tasks: null
+model: your_model_name
+gold: false
+memory: true
+memory_storage_dir: workspace/memory/lifelong_agent_bench/example
+cold_start_threshold: 20
+retrieval_top_k: 3
+embedding_provider: local
+embedding_model: your_embedding_model_name
+writer_dataset: false
+selector_dataset: false
+writer_dataset_path: null
+selector_dataset_path: null
+reflection_model: null
+selector_model: null
+max_steps: 15
+concurrency: 4
+step_timeout: 300
+output_dir: workspace/logs/lifelong_agent_bench/example
+os_timeout: 20
+sparql_url: http://127.0.0.1:3001/sparql
+ontology_dir: null
+vllm: true
+vllm_host: 127.0.0.1
+vllm_port: 8000
+vllm_tp: 1
+vllm_max_model_len: 131072
+vllm_gpus: "0"
+vllm_gpu_mem: 0.8
+vllm_timeout: 600
+vllm_lora_module: null
+vllm_lora_modules: []
+vllm_lora_max_rank: 32
+vllm_max_loras: 1
