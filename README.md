@@ -272,13 +272,16 @@ thank the authors of these projects for releasing their code and data.
 
 ## Citation
 
-If you use this repository, please cite the corresponding paper or project release.
+If you find this repository or paper useful, please kindly cite the corresponding paper or project release.
 
 ```bibtex
-@misc{opd-evolver,
-  title  = {OPD-Evolver: Cultivating a Holistic Agent Evolver via On-Policy Distillation},
-  author = {Anonymous},
-  year   = {2026},
-  note   = {Code release}
+@misc{zhang2026opdevolvercultivatingholisticagent,
+      title={OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation}, 
+      author={Guibin Zhang and Xun Xu and Yanwei Yue and Zikun Su and Wangchunshu Zhou and Xiaobin Hu and Shuicheng Yan},
+      year={2026},
+      eprint={2606.17628},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.17628}, 
 }
 ```
